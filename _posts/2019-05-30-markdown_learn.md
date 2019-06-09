@@ -42,7 +42,7 @@
 [百度 1](http://www.baidu.com/ '百度一下')  
 
 8、插入图片  
-[![](./01.jpg '描述')](http://www.baidu.com)  
+[![](/assets/images/01.jpg '描述')](http://www.baidu.com)  
 
 9、插入视频（略）
 
