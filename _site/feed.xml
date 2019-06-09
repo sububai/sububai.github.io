@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description>Minimalist Jekyll theme for technical writing blog.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 09 Jun 2019 19:33:43 +0800</pubDate>
+    <lastBuildDate>Sun, 09 Jun 2019 19:33:43 +0800</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Markdown_learn</title>
+        <description>&lt;p&gt;1、使用html&lt;/p&gt;
+&lt;div align=&quot;center&quot; style=&quot;color:red&quot;&gt;VS Code 使用 Markdown 编写文档&lt;/div&gt;
+
+&lt;p&gt;2、标题&lt;/p&gt;
+&lt;h1 id=&quot;h1&quot;&gt;h1&lt;/h1&gt;
+&lt;h2 id=&quot;h2&quot;&gt;h2&lt;/h2&gt;
+
+&lt;p&gt;3、TOC&lt;br /&gt;
+[TOC]&lt;/p&gt;
+
+&lt;p&gt;4、引用&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;hello world!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;hello world!  输入完之后按两次空格键再按一次Enter键即可&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;hello world!  输入完之后按两次空格键再按一次Enter键即可&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;hello world!  输入完之后按两次空格键再按一次Enter键即可&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;5、行内标记
+标记之外&lt;code class=&quot;highlighter-rouge&quot;&gt;hello world&lt;/code&gt;标记之外&lt;/p&gt;
+
+&lt;p&gt;6、代码块&lt;br /&gt;
+1）用&lt;code class=&quot;highlighter-rouge&quot;&gt;代码&lt;/code&gt;进行包裹
+代码：&lt;br /&gt;
+    &lt;code class=&quot;highlighter-rouge&quot;&gt;
+    &amp;lt;div&amp;gt;  
+        &amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;  
+        &amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;
+        &amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+   &lt;/code&gt;&lt;br /&gt;
+2）自定义语法（根据不同的语言配置不同的代码着色）&lt;br /&gt;
+代码：&lt;br /&gt;
+    &lt;code class=&quot;highlighter-rouge&quot;&gt;javascript
+    var num = 0;
+    for (var i = 0; i &amp;lt; 5; i++) {
+        num+=i;
+    }
+    console.log(num);
+   &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;7、 插入链接
+&lt;a href=&quot;http://www.baidu.com/&quot; title=&quot;百度一下&quot;&gt;百度 1&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;8、插入图片&lt;br /&gt;
+&lt;a href=&quot;http://www.baidu.com&quot;&gt;&lt;img src=&quot;/assets/images/01.jpg&quot; alt=&quot;&quot; title=&quot;描述&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;9、插入视频（略）&lt;/p&gt;
+
+&lt;p&gt;10、序列&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;one&lt;/li&gt;
+  &lt;li&gt;two&lt;/li&gt;
+  &lt;li&gt;three&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;one&lt;/li&gt;
+  &lt;li&gt;two&lt;/li&gt;
+  &lt;li&gt;three&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;11、语义标记&lt;br /&gt;
+&lt;em&gt;斜体&lt;/em&gt;、&lt;em&gt;斜体&lt;/em&gt;&lt;br /&gt;
+&lt;strong&gt;加粗&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;em&gt;加粗+斜体&lt;/em&gt;&lt;/strong&gt;、&lt;strong&gt;&lt;em&gt;加粗+斜体&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;del&gt;删除线&lt;/del&gt;&lt;br /&gt;
+==背景色==&lt;br /&gt;
+$\underline{下划线}$ &lt;br /&gt;
+Superscript - superscript&lt;br /&gt;
+^superscript^&lt;br /&gt;
+Subscript - subscript&lt;br /&gt;
+~subscript~&lt;/p&gt;
+
+&lt;p&gt;12、语义标签
+ &lt;i&gt;斜体&lt;/i&gt;&lt;br /&gt;
+&lt;b&gt;加粗&lt;/b&gt;&lt;br /&gt;
+&lt;em&gt;强调&lt;/em&gt;&lt;br /&gt;
+&lt;u&gt;下划线&lt;/u&gt; &lt;br /&gt;
+&lt;del&gt;删除&lt;/del&gt;&lt;br /&gt;
+Z&lt;sup&gt;a&lt;/sup&gt;&lt;br /&gt;
+Z&lt;sub&gt;a&lt;/sub&gt;&lt;br /&gt;
+&lt;kbd&gt;Ctrl&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;13分隔符&quot;&gt;13、分隔符&lt;/h2&gt;
+&lt;p&gt;或者&lt;br /&gt;
+***&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 30 May 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/markdown_learn/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/markdown_learn/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
