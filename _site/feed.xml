@@ -5,9 +5,56 @@
     <description>Minimalist Jekyll theme for technical writing blog.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 Nov 2019 22:57:51 +0800</pubDate>
-    <lastBuildDate>Fri, 22 Nov 2019 22:57:51 +0800</lastBuildDate>
+    <pubDate>Fri, 22 Nov 2019 23:15:45 +0800</pubDate>
+    <lastBuildDate>Fri, 22 Nov 2019 23:15:45 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Jekyll_info</title>
+        <description>&lt;h2 id=&quot;jekyll是什么&quot;&gt;jekyll是什么&lt;/h2&gt;
+&lt;p&gt;jekyll是一个简单的Blog生成工具&lt;/p&gt;
+
+&lt;h2 id=&quot;使用步骤&quot;&gt;使用步骤&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;下载ruby
+    &lt;blockquote&gt;
+      &lt;p&gt;http://www.ruby-lang.org/en/downloads/&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;下载和安装 RubyGems
+    &lt;blockquote&gt;
+      &lt;p&gt;https://rubygems.org/pages/download&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;解压后 ruby setup.rb&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;安装 Jekyll
+    &lt;blockquote&gt;
+      &lt;p&gt;gem install jekyll&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;下载模板/手动创建&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;使用jekyll命令调试和编译
+    &lt;blockquote&gt;
+      &lt;p&gt;jekyll server&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;jekyll build&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Fri, 22 Nov 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/jekyll_info/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/jekyll_info/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Markdown_learn</title>
